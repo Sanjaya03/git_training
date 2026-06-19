@@ -1,0 +1,10 @@
+    1  exit
+    2  cd ~
+    3  ls -lrt
+    4  mkdir git_repository
+    5  cd git_repository/
+    6  git init
+    7  ls -lrta
+    8  history
+    9  cat history 
+   10  history > git_practice.txt
