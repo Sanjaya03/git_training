@@ -8,3 +8,69 @@
     8  history
     9  cat history 
    10  history > git_practice.txt
+    1  exit
+    2  cd ~
+    3  ls -lrt
+    4  mkdir git_repository
+    5  cd git_repository/
+    6  git init
+    7  ls -lrta
+    8  history
+    9  cat history 
+   10  history > git_practice.txt
+   11  ls -lrt
+   12  cat git_practice.txt 
+   13  ls -lrt
+   14  git status
+   15  git add .
+   16  git status
+   17  git config --global user.name "Sanjaya03"
+   18  git config --global user.email "skswain.sre@gmail.com"
+   19  git config --list
+   20  git branch 
+   21  u
+   22  user u
+   23  uname -u
+   24  uname u
+   25  git --help
+   26  git branch --help
+   27  git branch --list
+   28  git checkout sre
+   29  git checkout -b sre
+   30  git branch
+   31  git branch --list
+   32  git --version
+   33  git branch
+   34  git status 
+   35  git switch master
+   36  git checkout master
+   37  git log 
+   38  git log --oneline
+   39  git log --oneline -n 5
+   40  git branch
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "first commit in sre branch"
+   45  git branch
+   46  git checkout master
+   47  git branch
+   48  git checkout -b main
+   49  git branch
+   50  ls -lrt
+   51  git status
+   52  git log --oneline
+   53  git log
+   54  git remote -v
+   55  git remote add origin https://github.com/Sanjaya03/git_training.git
+   56  git remote -v
+   57  git remote set-url origin https://github.com/Sanjaya03/git_training.git
+   58  git remote -v
+   59  git push origin main
+   60  git branch
+   61  git checkout sre
+   62  git merge origin main
+   63  git merge sre main
+   64  git branch 
+   65  ls -lrt
+   66  history >> git_practice.txt 
