@@ -1,8 +1,8 @@
 def another_fun():
 
-    a = 8
-    b = 5
+    c = 8
+    d = 5
+    return c+d
 
-    return a+b
 
 print(f"{another_fun()}")
